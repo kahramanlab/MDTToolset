@@ -114,7 +114,22 @@ switch_calculator <- function(cancer_ori, gtex_ori, exp_values_pcawg, exp_values
 
         median_gtex_relative_exp_of_MDT <- median(as.numeric(as.vector(gtex_relative_exp_of_MDT)), na.rm = TRUE)
 
-        statistical_test <- sapply(1:nrow(t(cancer_relative_exp_of_MDT)), function(i) BSDA::SIGN.test(gtex_relative_exp_of_MDT, alternative = "less", md = i))["p.value", ]
+        if (is.data.frame(cancer_relative_exp_of_MDT)) {
+          # If it has a single column, extract it as a vector
+          if (ncol(cancer_relative_exp_of_MDT) == 1) {
+            cancer_values <- cancer_relative_exp_of_MDT[[1]]
+          } else if (nrow(cancer_relative_exp_of_MDT) == 1) {
+            # If it has a single row, extract it as a vector
+            cancer_values <- unlist(cancer_relative_exp_of_MDT[1, ])
+          } else {
+            stop("the data should be a single-column or single-row data frame.")
+          }
+        } else {
+          # If it's not a data frame, assume it's a single value
+          cancer_values <- as.vector(cancer_relative_exp_of_MDT)
+        }
+
+        statistical_test <- sapply(cancer_values, function(i) BSDA::SIGN.test(gtex_relative_exp_of_MDT, alternative = "less", md = i))["p.value", ]
 
         data_of_MDT_w_statistics <- cbind(data_of_MDT, unlist(statistical_test), t(cancer_relative_exp_of_MDT), replicate(nrow(data_of_MDT), median_gtex_relative_exp_of_MDT))
 
