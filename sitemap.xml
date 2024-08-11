@@ -1,63 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/404.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/articles/MDTToolset-vignette.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/articles/MDTToolset_switching-vignette.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/index.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/MDT_boxplot.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/buildIsoNet.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/find_csmdts.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/find_mdts.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/pipe.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/plotExpression.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/prepare_Seq.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/prepare_seq_length.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/remove_redundants.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/switch_calculator.html</loc>
-  </url>
-  <url>
-    <loc>https://karakulaktulay.github.io/MDTToolset/reference/visualize_network.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/404.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/LICENSE-text.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/LICENSE.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/articles/MDTToolset-vignette.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/articles/MDTToolset_switching-vignette.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/articles/index.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/authors.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/index.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/MDT_boxplot.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/buildIsoNet.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/find_csmdts.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/find_mdts.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/index.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/pipe.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/plotExpression.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/prepare_Seq.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/prepare_seq_length.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/remove_redundants.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/switch_calculator.html</loc></url>
+<url><loc>https://karakulaktulay.github.io/MDTToolset/reference/visualize_network.html</loc></url>
 </urlset>
+

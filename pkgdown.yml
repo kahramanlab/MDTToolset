@@ -1,11 +1,10 @@
 pandoc: 3.1.11
-pkgdown: 2.0.9
+pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   MDTToolset_switching-vignette: MDTToolset_switching-vignette.html
   MDTToolset-vignette: MDTToolset-vignette.html
-last_built: 2024-05-26T14:47Z
+last_built: 2024-08-11T10:08Z
 urls:
   reference: https://karakulaktulay.github.io/MDTToolset/reference
   article: https://karakulaktulay.github.io/MDTToolset/articles
-
